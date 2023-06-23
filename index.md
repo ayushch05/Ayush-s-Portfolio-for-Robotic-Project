@@ -112,13 +112,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Hot-glue Gun| Used to glue any parts together using glue sticks | $ 14.99 | <a href="https://www.amazon.com/Gorilla-100426-Full-Size-Glue-Orange/dp/B087418ZDN/ref=sr_1_3?crid=3QJY6NH6HHKIU&keywords=gorilla%2Bglue%2Bgun&qid=1687549371&sprefix=gorilla%2Bglue%2Bgun%2Caps%2C145&sr=8-3&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Gorilla Hot Glue Sticks | Used and inserted into hot glue guns | $9.07 | <a href="[https://www.amazon.com/Wishiot-2pcs-DC3-6V-Motor-Reduction/dp/B07VBXXT9M/ref=sr_1_14?keywords=TT+wheel&qid=1687547293&sr=8-14](https://www.amazon.com/Gorilla-Sticks-Diameter-Count-Clear/dp/B071HH42WW/ref=sr_1_1_sspa?crid=30VY1B5ZI2KQP&keywords=hot%2Bglue%2Bsticks&qid=1687549546&sprefix=hot%2Bglue%2Bsticks%2Caps%2C150&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)"> Link </a> |
+| Gorilla Hot Glue Sticks | Used and inserted into hot glue guns | $9.07 | <a href="https://www.amazon.com/Gorilla-Sticks-Diameter-Count-Clear/dp/B071HH42WW/ref=sr_1_1_sspa?crid=30VY1B5ZI2KQP&keywords=hot%2Bglue%2Bsticks&qid=1687549546&sprefix=hot%2Bglue%2Bsticks%2Caps%2C150&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 200 Popsicle Sticks| Cables and wires to connect the mini breadboard, Arduino microcontroller board, H bridge, and input devices like IR sensors.  | $ 6.98 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_1_sspa?crid=2RWU8S1SQUB7J&keywords=jumper%2Bcables%2Barduino&qid=1687548607&sprefix=jumper%2Bcables%2Barduino%2Caps%2C138&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1](https://www.amazon.com/Sticks-Natural-Popsicle-Length-Crafts/dp/B07F367TCK/ref=sr_1_3?crid=27RXCEJUZ96XU&keywords=200+pc+popsicle+sticks+KTOJOY&qid=1687549910&sprefix=200+pc+popsicle+sticks+ktojoy%2Caps%2C130&sr=8-3)"> Link </a> |
+| 200 Popsicle Sticks| Cables and wires to connect the mini breadboard, Arduino microcontroller board, H bridge, and input devices like IR sensors.  | $ 6.98 | <a href="https://www.amazon.com/Sticks-Natural-Popsicle-Length-Crafts/dp/B07F367TCK/ref=sr_1_3?crid=27RXCEJUZ96XU&keywords=200+pc+popsicle+sticks+KTOJOY&qid=1687549910&sprefix=200+pc+popsicle+sticks+ktojoy%2Caps%2C130&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Hot-glue Gun| Used to glue any parts together using glue sticks | $ 14.99 | <a href="https://www.amazon.com/Gorilla-100426-Full-Size-Glue-Orange/dp/B087418ZDN/ref=sr_1_3?crid=3QJY6NH6HHKIU&keywords=gorilla%2Bglue%2Bgun&qid=1687549371&sprefix=gorilla%2Bglue%2Bgun%2Caps%2C145&sr=8-3&th=1"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Gorilla Hot Glue Sticks | Used and inserted into hot glue guns | $9.07 | <a href="[https://www.amazon.com/Wishiot-2pcs-DC3-6V-Motor-Reduction/dp/B07VBXXT9M/ref=sr_1_14?keywords=TT+wheel&qid=1687547293&sr=8-14](https://www.amazon.com/Gorilla-Sticks-Diameter-Count-Clear/dp/B071HH42WW/ref=sr_1_1_sspa?crid=30VY1B5ZI2KQP&keywords=hot%2Bglue%2Bsticks&qid=1687549546&sprefix=hot%2Bglue%2Bsticks%2Caps%2C150&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)"> Link </a> |
+
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
