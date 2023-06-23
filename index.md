@@ -38,6 +38,7 @@ After assembling and setting up all the parts on my rover to create my base proj
 - The arduino code was right, so I knew there was nothing wrong with the software part of my rover.
 - I forgot that my motors are set in the wrong direction.
 - This is my arduino code:
+```
   void loop() {
     moveForward();
     delay(2000);
@@ -62,6 +63,7 @@ void moveBackward() {
     digitalWrite(in3, LOW);
     digitalWrite(in4, HIGH);
 }
+```
 
 - 
 
