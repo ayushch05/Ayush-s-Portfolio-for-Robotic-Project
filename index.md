@@ -36,7 +36,8 @@ My second milestone was completing my robotic arm and integrating it with my sma
 After assembling and setting up all the parts on my rover to create my base project, the first milestone I completed was getting my rover to follow the instructions of my arduino code in order to do basic actions like moving backward, moving forward, and turning towards one direction. I struggled to complete this milestone initially because my rover wouldn’t follow the instructions of my arduino code.
 - My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
 - The arduino code was right, so I knew there was nothing wrong with the software part of my rover.
-- I forgot that my motors are set in the wrong direction.
+- Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal
+- I forgot that my motors are set in the opposite direction, so I also have to make the red and black wire terminals
 - This is my arduino code:
 ```
   void loop() {
