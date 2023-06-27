@@ -34,11 +34,15 @@ My second milestone was completing my robotic arm and integrating it with my sma
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-After assembling and setting up all the parts on my rover to create my base project, the first milestone I completed was getting my rover to follow the instructions of my arduino code in order to do basic actions like moving backward, moving forward, and turning towards one direction. I struggled to complete this milestone initially because my rover wouldn’t follow the instructions of my arduino code.
+To complete my project of a rover with a fan and a robotic arm, the first milestone I completed was getting my rover to follow the instructions of my arduino code in order to do basic actions like moving backward, moving forward, and turning towards one direction. I struggled to complete this milestone initially because my rover wouldn’t follow the instructions of my arduino code.
+- First, I tried to assemble all the necessary the mechanical parts of my rover before uploading Arduino source code into the arduino board. I decided to get my wire configuration right before testing my rover's positions.
+- 
+- After I assesmbled my rover's mechanical side, I decideed to work on the software part by working in the Arduino IDE editor.
+- In my code, I defined some functions called moveForward (to move forward for a certain time), moveBackward (to move backward for a certain time), turnLeft, and turnRight. Then in the loop function, I coded some instructions that would make the rover move forward and then move backward for a certain amount of time. After these two functions, the rover is instructed to rotate right and then rotate left around itself.  
 - My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
-- The arduino code was right, so I knew there was nothing wrong with the software part of my rover.
+- The arduino code was right, so I knew there was nothing wrong with the software part of my rover. 
 - Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the
-- ![image](https://github.com/ayushch05/Ayush-s-Portfolio-for-Robotic-Project/assets/135579199/6fc0b560-a702-45ba-b368-f8001cbb606f)
+- 
 
 - I forgot that my motors are set in the opposite direction, so I also have to make the red and black wire terminals
 -
@@ -63,6 +67,16 @@ void loop() {
     delay(500);
 
     moveBackward();
+    delay(2000);
+    stopMove();
+    delay(500);
+
+    turnLeft();
+    delay(2000);
+    stopMove();
+    delay(500);
+  
+    turnRight();
     delay(2000);
     stopMove();
     delay(500);
