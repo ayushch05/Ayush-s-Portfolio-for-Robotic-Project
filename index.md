@@ -26,8 +26,10 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
-My second milestone was completing my robotic arm and integrating it with my smart car.
--My first plan was to get the 
+My second milestone is completing my robotic arm and integrating it with my smart car.
+-My first plan is to make the robotic arm and assemble its parts.
+-My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
+-My third plan is to 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -45,14 +47,14 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 <img src="IMG-1374.jpg" alt="" width="500" height="400">
 - My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
 - The arduino code was right, so I knew there was nothing wrong with the software part of my rover.
-- Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the 5volt
+- Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the 5 volt input power pin to the output pins of the H bridge. The source code is trasnferred from the digital pins to the input pins of the H bridge as well, and in the code, each input pin is assigned to the corresponding or matching number. 
 - Arduino board and H Bridge map:
 <img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
 <img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
-- I forgot that my motors are set in the opposite direction, so I also have to make the red and black wire terminals
--
+- I forgot that my motors are set in the opposite direction. Because of this, even though both motors are spinning in the same direction, the opposite set up with make the rover as a system rotate. Due to this problem, I decided to switch the set up of the black and red wires, so the individual motors spin in opposite directions making the rover a system move forward. 
+-This is how I fixed this problem. 
 
-- 
+  
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
