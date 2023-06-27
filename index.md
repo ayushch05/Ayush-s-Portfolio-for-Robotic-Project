@@ -27,9 +27,9 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 My second milestone is completing my robotic arm and integrating it with my smart car.
--My first plan is to make the robotic arm and assemble its parts.
--My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
--My third plan is to 
+- My first plan is to make the robotic arm and assemble its parts.
+- My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
+- My third plan is to 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
