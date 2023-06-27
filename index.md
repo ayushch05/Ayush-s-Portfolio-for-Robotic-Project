@@ -38,7 +38,9 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - First, I tried to assemble all the necessary the mechanical parts of my rover before uploading Arduino source code into the arduino board. I decided to get my wire configuration right before testing my rover's positions.
 - 
 - After I assesmbled my rover's mechanical side, I decideed to work on the software part by working in the Arduino IDE editor.
-- In my code, I defined some functions called moveForward (to move forward for a certain time), moveBackward (to move backward for a certain time), turnLeft, and turnRight. Then in the loop function, I coded some instructions that would make the rover move forward and then move backward for a certain amount of time. After these two functions, the rover is instructed to rotate right and then rotate left around itself.  
+- In my code, I defined some functions called moveForward (to move forward for a certain time), moveBackward (to move backward for a certain time), turnLeft, and turnRight. Then in the loop function, I coded some instructions that would make the rover move forward and then move backward for a certain amount of time. After these two functions, the rover is instructed to rotate right and then rotate left around itself.
+- My assembled rover:
+  IMG-1373.jpg 
 - My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
 - The arduino code was right, so I knew there was nothing wrong with the software part of my rover. 
 - Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the
