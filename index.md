@@ -48,7 +48,7 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the 5volt
 - Arduino board and H Bridge map:
 <img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
-
+<img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
 - I forgot that my motors are set in the opposite direction, so I also have to make the red and black wire terminals
 -
 
