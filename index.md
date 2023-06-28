@@ -123,6 +123,7 @@ void stopMove() {
 }
 ```
 #Code for robotic arm
+```
 /* -----------------------------------------------------------------------------
   Author             : Allen
   Check              : Amy
@@ -315,6 +316,7 @@ void loop()
     delay(10);
   }
 }
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
