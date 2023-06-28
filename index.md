@@ -32,6 +32,8 @@ My second milestone is completing my robotic arm and integrating it with my smar
 - My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
 - My third plan is to make a stand or a table for the robotic arm to be placed on, and that stand is placed nicely on the rover so when the rover moves, the stand with the robotic arm inside doesn't fall.
 - My stand for the rover:
+   <img src="IMG_1404.HEIC" alt="Assembled Rover" width="500" height="400">
+  
   
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
