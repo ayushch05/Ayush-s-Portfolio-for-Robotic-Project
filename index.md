@@ -26,10 +26,13 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
+  
 My second milestone is completing my robotic arm and integrating it with my smart car.
 - My first plan is to make the robotic arm and assemble its parts.
 - My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
-- My third plan is to 
+- My third plan is to make a stand or a table for the robotic arm to be placed on, and that stand is placed nicely on the rover so when the rover moves, the stand with the robotic arm inside doesn't fall.
+- My stand for the rover:
+  
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -42,7 +45,6 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - In my code, I defined some functions called moveForward (to move forward for a certain time), moveBackward (to move backward for a certain time), turnLeft, and turnRight. Then in the loop function, I coded some instructions that would make the rover move forward and then move backward for a certain amount of time. After these two functions, the rover is instructed to rotate right and then rotate left around itself.
 - My assembled rover:
   <img src="IMG-1373.jpg" alt="Assembled Rover" width="500" height="400">
-  
 -In order to test my code, I would use an USB adapter to upload my code into the arduino board.
 <img src="IMG-1374.jpg" alt="" width="500" height="400">
 - My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
