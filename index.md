@@ -318,6 +318,60 @@ void loop()
 }
 ```
 
+#Code for temperature sensor
+```
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
+// Data wire is conntec to the Arduino digital pin 4
+const int oneWireBus = 4;
+// Data wire is conntec to the Arduino digital pin 4
+#define ONE_WIRE_BUS 4
+
+// Setup a oneWire instance to communicate with any OneWire devices
+OneWire oneWire(ONE_WIRE_BUS);
+
+// Pass our oneWire reference to Dallas Temperature sensor 
+DallasTemperature sensors(&oneWire);
+
+void setup(void)
+{
+  // Start serial communication for debugging purposes
+  Serial.begin(9600);
+  // Start up the library
+  sensors.begin();
+}
+
+void loop(void){ 
+  // Call sensors.requestTemperatures() to issue a global temperature and Requests to all devices on the bus
+  sensors.requestTemperatures(); 
+  
+  Serial.print("Celsius temperature: ");
+  // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
+  Serial.print(sensors.getTempCByIndex(0)); 
+  Serial.print("Fahrenheit temperature: ");
+  Serial.println(sensors.getTempFByIndex(0));
+  delay(1000);
+ 
+  pinMode(2,INPUT);
+  /* 
+  if (sensors.getTempCByIndex(0) > -128) {
+      digitalWrite(2, HIGH); // sets the digital pin 2 on to provide the power 
+      delay(1000); // waits for 1000 miliseconds = 1 second
+      Serial.print("The fan should be turned on.");
+  }
+  else {           
+  digitalWrite(2, LOW);  // sets the digital pin 13 off
+  delay(1000); // waits for 1000 miliseonds = 1 second
+  Serial.print("The fan should be turned off.");
+  }
+  */
+
+  
+  
+}
+```
+
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
