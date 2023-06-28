@@ -61,7 +61,8 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 <img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
 <img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
 - I forgot that my motors are set in the opposite direction. Because of this, even though both motors are spinning in the same direction, the opposite set up with make the rover as a system rotate. Due to this problem, I decided to switch the set up of the black and red wires, so the individual motors spin in opposite directions making the rover a system move forward. 
--This is how I fixed this problem. 
+-This is how I fixed this problem.
+- Before my final project needs to be completed, I need my rover to move accordingly to the arduino code with the added modifications. 
 
   
 
