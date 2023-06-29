@@ -21,7 +21,9 @@ My final milestone is to integrate my final modification of a self-cooling regul
 - In order to get familiar with the kit, I first tried powering the fan from the rover.
 - The fan has two wires, one red and one black wire. The 9-volt battery supplies voltage to flows from the red wire and to exit out from the black wire.
 - <img src="IMG-1407 (1).jpg" alt="Assembled Rover" width="200" height="250">
-- I powered the fan by plugging the red wire into one of the output pins of the H-bridge to get power from the battery and the black wire into ground level. 
+- I powered the fan by plugging the red wire into one of the output pins of the H-bridge to get power from the battery and the black wire into ground level. The fan was spinning.
+- Then I had to assemble the fan with the thermostat.
+- The thermostat is consisted of a metal conductor attached to a digital temperature sensor.
 - My future goal of this project is to replace the fan with a machine that send data about temperature at different places and other information like pictures and wind speed to remote systems. This gives us opportunities to learn more about those places to make tasks of gathering information easier for human beings, so they can analyze raw data. 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
