@@ -1,5 +1,7 @@
 # Ayush's Robotic Arm Smart Car
-My project is to build a smart car with a self-cooling system and also a robotic arm to pick up and carry objects. The robotic arm smart car has a fan that turns on/off based on the temperature measured by the thermostat assembled on the smart car. My project also has infrared sensors and a thermostat, each for different functionalities. The infrared sensors are placed underneath the rover to detect ground surface within a 5-centimeter range by emitting light waves. The thermostat's function is to measure the room temperature, and based on a certain room temperature, the thermostat sends a signal to arduino controller board to either turn on or off the fan. This is what my rover consists of. 
+My project is to build a smart car with a self-cooling system and also a robotic arm to pick up and carry objects. The robotic arm smart car has a fan that turns on/off based on the temperature measured by the thermostat assembled on the smart car. My project also has infrared sensors and a thermostat, each for different functionalities. The infrared sensors are placed underneath the rover to detect ground surface within a 5-centimeter range by emitting light waves and receiving reflected light waves. The thermostat's function is to measure the room temperature, and based on a certain room temperature, the thermostat sends a signal to arduino controller board to either turn on or off the fan. 
+
+My future goal of this project is to replace the fan with a machine that send data about temperature at different places and other information like pictures and wind speed to remote systems. This gives us opportunities to learn more about those places to make tasks of gathering information easier for human beings, so they can analyze raw data. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -49,14 +51,14 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - My assembled rover:
 - <img src="IMG-1373.jpg" alt="Assembled Rover" width="500" height="400">
 - In order to test my code, I would use an USB adapter to upload my code into the arduino board.
-<img src="IMG-1374.jpg" alt="" width="500" height="400">
-- My problem was that when my rover instructed to move forward, it would rotate very fast in the counterclockwise or clockwise direction. 
+- <img src="IMG-1374.jpg" alt="" width="500" height="400">
+- My problem was that when my rover instructed to move forward, it would instead rotate very fast in the counterclockwise or clockwise direction. 
 - The arduino code was right, so I knew there was nothing wrong with the software part of my rover.
 - Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the 5 volt input power pin to the output pins of the H bridge. The source code is trasnferred from the digital pins to the input pins of the H bridge as well, and in the code, each input pin is assigned to the corresponding or matching number. 
 - Arduino board and H Bridge map:
-<img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
-<img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
-- I forgot that my motors are set in the opposite direction. Because of this, even though both motors are spinning in the same direction, the opposite set up with make the rover as a system rotate. Due to this problem, I decided to switch the set up of the black and red wires, so the individual motors spin in opposite directions making the rover a system move forward. 
+- <img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
+- <img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
+- Solution: I forgot that my motors are set in the opposite direction. Because of this, even though both motors are spinning in the same direction, the opposite set up with make the rover as a system rotate. Due to this problem, I decided to switch the set up of the black and red wires, so the individual motors spin in opposite directions making the rover a system move forward. 
 -This is how I fixed this problem.
 - Before my final project needs to be completed, I need my rover to move accordingly to the arduino code with the added modifications. 
 
