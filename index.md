@@ -69,10 +69,7 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 -This is how I fixed this problem.
 - Before my final project needs to be completed, I need my rover to move accordingly to the arduino code with the added modifications. 
 
-  
-
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DG3XcSVxVLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
