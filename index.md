@@ -3,9 +3,7 @@ My project is to build a smart car with a self-cooling system and also a robotic
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Aysuh C | Mountain House High School | Mechatronic Engineering | Incoming Senior
-
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+| Ayush C | Mountain House High School | Mechatronic Engineering | Incoming Senior
 
 ![Headstone Image](IMG-1417.jpg)
   
