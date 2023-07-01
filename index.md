@@ -10,12 +10,6 @@ My project is to build a smart car with a self-cooling system and also a robotic
 ![Headstone Image](IMG-1417.jpg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-- 
 My final milestone is to integrate my final modification of a self-cooling regulating system. This self-cooling regulating system consists of a fan and a thermostat, and this system works by turning on or off a fan based on the detected room temperature from the thermostat.
 - One big problem I had was to assemble the fan and thermostat kit onto my smart car using the breadboard.
 - In order to get familiar with the kit, I first tried powering the fan from the rover.
