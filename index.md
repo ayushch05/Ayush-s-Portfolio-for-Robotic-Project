@@ -127,15 +127,6 @@ void stopMove() {
 ```
 #Code for robotic arm
 ```
-/* -----------------------------------------------------------------------------
-  Author             : Allen
-  Check              : Amy
-  Version            : V2.0
-  Date               : 12/09/2019
-  Description        : Rollarm control program
-  Company website    : http://www.sunfounder.com
-   ---------------------------------------------------------------------------*/
-
 /* Include ------------------------------------------------------------------*/
 // Create servo object to control a servo. 
 #include <Servo.h> 
