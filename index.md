@@ -20,6 +20,8 @@ My final milestone is to integrate my final modification of a self-cooling regul
 - The thermal sensor also has one yellow wire to transmit data on the detected room temperature to the arduino board. Based on the data and the detected room temperature, the arduino board provides power to the fan if the room temperature exceeds 10 degrees Fahrenheit, and otherwise not.
 - This is a segment of the output of my thermal sensor. 
 - <img src="91E2CE97-54B5-4208-A8AB-7262AFB2E3F6.jpeg" alt="Assembled Rover" width="730" height="500">
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/F7M7imOVGug](https://drive.google.com/file/d/1UgCkWApjveYXxHm49xjRfp889xnkI3k_/view?usp=sharing 
+)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 - My future goal of this project is to replace the fan with a machine that send data about temperature at different places and other information like pictures and wind speed to remote systems. This gives us opportunities to learn more about those places to make tasks of gathering information easier for human beings, so they can analyze raw data. 
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
